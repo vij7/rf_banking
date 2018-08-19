@@ -1,3 +1,9 @@
+/*-------------------------------*/
+/* Theme: Banking                */
+/* Author: Vijay Vimal           */
+/* Author URL: www.webcolabs.com */
+/*-------------------------------*/
+
 @charset "utf-8";
 
 body { font-size: 15px; font-family: 'Poppins', sans-serif; line-height: 1.4; color: #778191; background-color: #f4f6f8; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
@@ -332,7 +338,7 @@ display: block; background: #dddddd; content: '';}*/
 #navigation.small-screen ul ul .submenu-button:before { top: 12px; right: 16px; }
 #navigation.small-screen .submenu-button.submenu-opened:before { display: none; }
 #navigation.small-screen.select-list { padding: 5px; }
-#sub-nav { position: relative; }
+#sub-nav { position: relative; z-index: 99;}
 #sub-nav #menu-button { display: none; }
 #sub-nav.small-screen #menu-button { display: block; padding: 16px; color: #f6ad00; cursor: pointer; font-size: 12px; text-transform: uppercase; font-weight: 700; border-top: 1px solid #e2e7ee }
 #sub-nav.small-screen #menu-button:after { position: absolute; top: 22px; right: 10px; display: block; height: 8px; width: 20px; border-top: 2px solid #f6ad00; border-bottom: 2px solid #f6ad00; content: ''; }
@@ -695,9 +701,9 @@ display: block; background: #dddddd; content: '';}*/
 .page-breadcrumb .breadcrumb { background-color: transparent; padding: 0px; font-size: 12px; text-transform: uppercase; color: #15549a; font-weight: 700; }
 .page-breadcrumb .breadcrumb>li { }
 .page-breadcrumb .breadcrumb>.active { color: #fff; font-weight: 700; }
-.page-breadcrumb .breadcrumb>li a { color: #15549a; font-weight: 700; }
+.page-breadcrumb .breadcrumb>li a { color: #f6ad00; font-weight: 700; }
 .page-breadcrumb .breadcrumb>li a:hover { color: #f6ad00; }
-.page-breadcrumb .breadcrumb>li+li:before { padding: 0 5px; color: #15549a; content: "/\00a0"; }
+.page-breadcrumb .breadcrumb>li+li:before { padding: 0 5px; color: #f6ad00; content: "/\00a0"; }
 
 .post-holder { border-bottom: 1px solid #e8eaec; margin-bottom: 29px; }
 .post-header { border-bottom: 1px solid #dee4ee; margin-bottom: 20px; padding-bottom: 19px; }
