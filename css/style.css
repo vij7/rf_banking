@@ -625,6 +625,13 @@ display: block; background: #dddddd; content: '';}*/
    
 }
 
+.branch-loc .fa { color: #15549a; }
+.branch-loc { color: #222;}
+.branch-loc .col-md-11, .branch-loc .col-md-1 { margin-bottom: 15px; }
+.contact-branch .panel-body { padding: 15px; }
+.page-header.contact-page {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgba(0, 0, 0, 0.2) url(../images/c-header.jpg) no-repeat center;
+}
 
 #service { }
 #service .owl-next, #service .owl-prev { background-color: transparent !important; border: 2px solid #a3b1c1; color: #a3b1c1; -webkit-transition: all 0.3s; -moz-transition: all 0.3s; transition: all 0.3s; }
