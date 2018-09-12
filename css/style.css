@@ -632,6 +632,12 @@ display: block; background: #dddddd; content: '';}*/
 .page-header.contact-page {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgba(0, 0, 0, 0.2) url(../images/c-header.jpg) no-repeat center;
 }
+.page-header.loan-page {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgba(0, 0, 0, 0.2) url(../images/loan-header.jpg) no-repeat center;
+}
+.page-header.loan-single {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgba(0, 0, 0, 0.2) url(../images/loans-header.jpg) no-repeat center;
+}
 
 #service { }
 #service .owl-next, #service .owl-prev { background-color: transparent !important; border: 2px solid #a3b1c1; color: #a3b1c1; -webkit-transition: all 0.3s; -moz-transition: all 0.3s; transition: all 0.3s; }
